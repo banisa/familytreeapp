@@ -21,14 +21,16 @@ These instructions will get you a copy of the project up and running on your loc
 - Select "Device" radio button
 - From the pop-up, click "Add" and browse to the "Database" folder of this cloned repo and select "FuturegrowthDb.bak"
 
-### Installing - Web App
+### Running The Web App
 
 - Open Visual Studio
 - Open the solution by browsing to the directory of this cloned repo
 - Select "FamilyTree.sln"
 - Build the solution, the nuget packages should install
+- Go to and expand the "FamilyTree.Web" project and open the "Web.config" file
+- Update the connectionString's "Data Source" to match your database instance 
 
-## Running the tests
+## Running The Tests
 
 - The tests are titled "UnitTests" 
 - From the Visual Studio menu, click "Test", then "Test Explorer" 
