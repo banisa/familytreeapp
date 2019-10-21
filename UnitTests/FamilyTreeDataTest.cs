@@ -52,7 +52,22 @@ namespace UnitTests
             Assert.Equal(child.FatherId, actual);
         }
 
-        
+        [Fact]
+        public void Should_ReturnNullChildWhenInvalidPersonIdIsProvided()
+        {
+            //Arrange
+            var personId = 2787822;
+            var inMemoryFamilyTreeData = new InMemoryFamilyTreeRepository();
+
+            //Act
+            var child = inMemoryFamilyTreeData.GetChildByPersonId(personId);
+
+            //Assert
+            Assert.Null(child);
+        }
+
+
+
         [Fact]
         public void Should_GetPersonByProvidedId()
         {
@@ -66,6 +81,20 @@ namespace UnitTests
 
             //Assert
             Assert.Equal(person.Name, actual);
+        }
+
+        [Fact]
+        public void Should_ReturnNullPersonWhenInvalidIdIsProvided()
+        {
+            //Arrange
+            var Id = 789898333;
+            var inMemoryFamilyTreeData = new InMemoryFamilyTreeRepository();
+
+            //Act
+            var person = inMemoryFamilyTreeData.GetPersonById(Id);
+
+            //Assert
+            Assert.Null(person);
         }
 
         [Fact]
