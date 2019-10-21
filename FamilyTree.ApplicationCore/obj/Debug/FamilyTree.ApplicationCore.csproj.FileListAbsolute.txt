@@ -1,0 +1,5 @@
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.ApplicationCore\bin\Debug\FamilyTree.ApplicationCore.dll
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.ApplicationCore\bin\Debug\FamilyTree.ApplicationCore.pdb
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.ApplicationCore\obj\Debug\FamilyTree.ApplicationCore.dll
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.ApplicationCore\obj\Debug\FamilyTree.ApplicationCore.pdb
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.ApplicationCore\obj\Debug\FamilyTree.ApplicationCore.csprojAssemblyReference.cache
