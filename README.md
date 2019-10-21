@@ -8,9 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-MS Sql Express
-Visual Studio 2019 (Community Edition Works)
-Clone this repo
+- MS Sql Express
+- Visual Studio 2019 (Community Edition Works)
+- Clone this repo
 
 ### Installing - Database Backup
 
