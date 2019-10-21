@@ -1,0 +1,13 @@
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\FamilyTree.Data.dll.config
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\FamilyTree.Data.dll
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\FamilyTree.Data.pdb
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\EntityFramework.dll
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\FamilyTree.ApplicationCore.dll
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\FamilyTree.ApplicationCore.pdb
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\EntityFramework.xml
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\obj\Debug\FamilyTree.Data.csprojAssemblyReference.cache
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\obj\Debug\FamilyTree.Data.csproj.CopyComplete
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\obj\Debug\FamilyTree.Data.dll
+C:\Development\Playground\Futuregrowth\FamilyTree\FamilyTree.Data\obj\Debug\FamilyTree.Data.pdb

@@ -1,0 +1,38 @@
+﻿@model FamilyTree.Web.Models.PersonChildViewData
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        <th>
+            Surname
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Persons)
+    {
+        var child = Model.Children.FirstOrDefault(x => x.PersonId == item.Id);
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Surname)
+            </td>
+            <td>
+                @Html.ActionLink("Parent Details", "ParentDetails", new { id=child.PersonId })
+            </td>
+        </tr>
+    }
+
+</table>
+

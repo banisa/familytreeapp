@@ -1,0 +1,31 @@
+﻿@model FamilyTree.ApplicationCore.Entities.Parent
+
+@{
+    ViewBag.Title = "Parents Type And Status";
+}
+
+<h2>Parent - Type And Status</h2>
+
+<div>
+    <h4>Parent</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ParentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ParentType)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LivingStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LivingStatus)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
